@@ -1,0 +1,190 @@
+body{
+    background-color: #111111;
+}
+
+main{
+    background-color: #6c4537;
+    border-style: solid;
+    border-width: 48px;
+    /* image de bordure répétée tous les 48 pixels (largeur de l'image), crédit image: fandom binding of isaac */
+    border-image: url(https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9b/CSS_Border.png/revision/latest) 48 repeat;
+    padding: 8px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+/* css pour les paragraphes + headings + liens + images */
+h1{
+    font-family: Upheavtt; 
+    font-size: 32px; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px black;
+}
+#Chapitres h2{
+    font-family: Upheavtt; 
+    font-size: 28 px; 
+    letter-spacing: 1px; 
+    text-shadow: 1px 1px black;
+}
+#Chapitres img{
+    max-width:239.2px;
+}
+#Boss h2{
+    color: wheat; 
+    font-family: IsaacGame; 
+    font-size: 28px;
+    align-content: left;
+} 
+p{
+    text-align:justify;
+}
+p.presentation{
+    font-style: italic;  
+    font-weight: bold;
+}
+a.para{
+    color: wheat; 
+    text-decoration: none; 
+    font-family: IsaacGame; 
+    font-size: 20px;
+}
+
+/* menu nav responsive */
+nav{
+    position: sticky;
+    top:0;
+}
+ul.menu {
+    background-color: #111111; 
+    list-style-type: none;    
+    margin: 0;    
+    padding: 0;    
+    overflow: hidden;
+}  
+ul.menu li {
+    float: left;
+} 
+ul.menu li.right {
+    float: right;
+}
+ul.menu li a {
+    display: block;    
+    font-family: Upheavtt; 
+    font-size: 20px;    
+    color: white;    
+    text-align: center;   
+    padding: 14px 16px;    
+    text-decoration: none;
+}
+ul.menu li a:hover:not(.active) {
+    color: wheat;
+}
+ul.menu li a.active{
+    background-color: wheat;    
+    color: #111111;
+}
+@media screen and (max-width: 700px) {
+    ul.menu li.right, 
+    ul.menu li{float: none;} 
+    h1{text-align: center;}
+    nav{position: initial;} 
+    main.accueil p{font-size:small}
+}
+
+/* css pour les différents tableaux */
+div.tabloX{
+    overflow-x: auto;
+}
+table{
+    text-align: center;   
+}
+tr.logo{
+    width: auto; height: 50%;
+}
+tr.description{
+    color: wheat; 
+    font-family: IsaacGame; 
+    font-size: 25px;
+}
+/* tableau responsive pour pc */
+@media (min-width: 700px){
+    .phone{display: none;}
+}
+table.pc, .pc tr, .pc td{
+    border: 1px solid wheat; 
+    border-collapse: collapse;
+}
+table.pc tr{
+    height: fit-content;
+}
+table.pc tr.persos img{
+    width: 90px;
+}
+table.pc tr.hearts{
+    padding: 0; 
+    margin: 0; 
+    vertical-align: middle; 
+    width: auto;
+}
+table.pc tr.hearts img{
+    height: 32px;
+}
+table.pc{
+    font-family: IsaacGame; 
+    font-size:auto; 
+    letter-spacing: 1px;
+}
+/* tableau responsive pour téléphone */
+@media (max-width: 700px){
+    .pc{display: none;}
+}
+table.phone, .phone tr, .phone td{
+    border: 1px solid wheat; 
+    border-collapse: collapse;
+}
+table.phone{
+    width: 100%; 
+    height: auto; 
+    font-family: IsaacGame; 
+    font-size:auto; 
+    letter-spacing: 1px;
+}
+
+/* intégration de la police du jeu de base */
+@font-face {
+    font-family: "Upheavtt"; 
+    src: url("upheavtt.ttf");
+}
+@font-face {
+    font-family: "IsaacGame"; 
+    src: url("IsaacGame.ttf");
+}
+
+/* css gallerie image */
+article{
+    overflow: auto;
+}
+.galerie img {
+    width: 100%;
+    height: auto;
+}
+.description {
+    padding: 15px;
+    text-align: center;
+}
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+@media only screen and (max-width: 700px) {
+.responsive {
+    width: 49.99999%;
+    margin: 20%;
+}
+}
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
