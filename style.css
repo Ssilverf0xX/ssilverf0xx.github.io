@@ -42,6 +42,10 @@ p.presentation{
     font-style: italic;  
     font-weight: bold;
 }
+p.question{
+    font-family: IsaacGame;
+    font-size: 26px;
+}
 a.para{
     color: wheat; 
     text-decoration: none; 
