@@ -7,7 +7,7 @@ main{
     border-style: solid;
     border-width: 48px;
     /* image de bordure répétée tous les 48 pixels (largeur de l'image), crédit image: fandom binding of isaac */
-    border-image: url(https://static.wikia.nocookie.net/bindingofisaacre_gamepedia/images/9/9b/CSS_Border.png/revision/latest) 48 repeat;
+    border-image: url(CSS_Border.png) 48 repeat;
     padding: 8px 12px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
