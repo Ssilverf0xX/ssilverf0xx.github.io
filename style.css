@@ -108,7 +108,13 @@ ul.menu li a.active{
 /* css pour les différents tableaux */
 div.tabloX{
     overflow-x: auto;
-    overflow: hidden;
+/*   rendre la barre de scroling invisible mais fonctionnelle (IE, Edge, Firefox)   */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+/* rendre la barre de scrolling invisible mais fonctionnelle (Chrome, Safari, Opera) */
+div.tabloX: :-webkit-scrollbar{
+    display: none;
 }
 table{
     text-align: center;  
