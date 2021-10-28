@@ -113,7 +113,7 @@ div.tabloX{
     scrollbar-width: none;
 }
 /* rendre la barre de scrolling invisible mais fonctionnelle (Chrome, Safari, Opera) */
-div.tabloX: :-webkit-scrollbar{
+div.tabloX::-webkit-scrollbar{
     display: none;
 }
 table{
