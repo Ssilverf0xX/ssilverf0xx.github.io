@@ -108,6 +108,7 @@ ul.menu li a.active{
 /* css pour les différents tableaux */
 div.tabloX{
     overflow-x: auto;
+    overflow: hidden;
 }
 table{
     text-align: center;  
