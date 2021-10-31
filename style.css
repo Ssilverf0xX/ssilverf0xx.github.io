@@ -108,17 +108,9 @@ ul.menu li a.active{
 /* css pour les différents tableaux */
 div.tabloX{
     overflow-x: auto;
-/*   rendre la barre de scroling invisible mais fonctionnelle (IE, Edge, Firefox)   */
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-}
-/* rendre la barre de scrolling invisible mais fonctionnelle (Chrome, Safari, Opera) */
-div.tabloX::-webkit-scrollbar{
-    display: none;
 }
 table{
     text-align: center;  
-    background-color: #5b3a2e; 
 }
 tr.logo{
     width: auto; height: 50%;
@@ -154,6 +146,7 @@ table.pc tr.hearts img{
     height: 32px;
 }
 table.pc{
+    background-color: #5b3a2e; 
     font-family: IsaacGame; 
     font-size:auto; 
     letter-spacing: 1px;
@@ -169,6 +162,7 @@ table.phone, .phone tr, .phone td{
     border-collapse: collapse;
 }
 table.phone{
+    background-color: #5b3a2e; 
     width: 100%; 
     height: auto; 
     font-family: IsaacGame; 
