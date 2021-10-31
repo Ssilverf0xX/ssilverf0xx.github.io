@@ -12,7 +12,6 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
 }
-
 /* css pour les paragraphes + headings + liens + images */
 h1{
     font-family: Upheavtt; 
@@ -22,7 +21,7 @@ h1{
 }
 #Chapitres h2{
     font-family: Upheavtt; 
-    font-size: 28 px; 
+    font-size: 28px; 
     letter-spacing: 1px; 
     text-shadow: 1px 1px black;
 }
@@ -54,7 +53,6 @@ a.para{
     font-family: IsaacGame; 
     font-size: 20px;
 }
-
 /* menu nav responsive */
 nav{
     position: sticky;
@@ -89,7 +87,7 @@ ul.menu li a.active{
     background-color: wheat;    
     color: #111111;
 }
-@media screen and (max-width: 931px) {
+@media screen and (max-width: 931px) {/* barre de nav verticale + centrer les titres*/
     ul.menu li.right, 
     ul.menu li{
         float: none;
@@ -97,10 +95,13 @@ ul.menu li a.active{
     h1{
         text-align: center;
     }
+    h2{
+        text-align: center;
+    }
     nav{
         position: initial;
     } 
-    main.accueil p{
+    #accueil p{
         font-size:small
     }
 }
@@ -108,6 +109,11 @@ ul.menu li a.active{
 /* css pour les différents tableaux */
 div.tabloX{
     overflow-x: auto;
+    -ms-overflow-style: none;/*cacher la barre de scrol pour IE et edge*/
+    scrollbar-width: none;/*cacher la barre de scrol pour firefox*/
+}
+div.tabloX::-webkit-scrollbar{
+    display: none;/*cacher la barre de scrol pour chrome, safarti et opera*/
 }
 table{
     text-align: center;  
