@@ -87,6 +87,8 @@ footer{padding:50px 0}
 .education-block h4{color:#1b1b1b;clear:both;font-weight:500;margin:0 0 15px 0}
 .education-block p,.education-block ul{margin:0;color:#1b1b1b;font-size:0.9em}
 .education-block ul{padding:0 0 0 15px}
+#futur{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
+#futur h2{color:#dd8047;margin-bottom:50px}
 #projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
 #projects h2{color:#dd8047;margin-bottom:50px}
 .project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
