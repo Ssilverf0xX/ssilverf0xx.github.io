@@ -90,6 +90,7 @@ footer{padding:50px 0}
 #futur{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9}
 #futur h2{float:center;color:#dd8047}
 .futur{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
+.project-info{position:absolute;top:50%;transform:translateY(-50%);margin-left:300px;padding:15px}
 .futur-info h3{font-size:1.5em;font-weight:300;color:#dd8047;float:center;margin:0}
 .futur-info ul{display:block;margin:0 auto;padding:0;max-width:800px}
 .futur-info li{display:inline-block;margin:7px;padding:5px 10px;color:#dd8047;background:#e4e4ea;list-style:none;cursor:default;font-size:1.2em}
