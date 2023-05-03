@@ -88,7 +88,10 @@ footer{padding:50px 0}
 .education-block p,.education-block ul{margin:0;color:#1b1b1b;font-size:0.9em}
 .education-block ul{padding:0 0 0 15px}
 #futur{padding:50px 15px;text-align:center;border-bottom:1px solid #dcd9d9}
-#futur h2{color:#dd8047}
+#futur h2{float:center;color:#dd8047}
+#futur h3{font-size:1.5em;font-weight:300;color:#dd8047;float:center;margin:0}
+#futur ul{display:block;margin:0 auto;padding:0;max-width:800px}
+#futur li{display:inline-block;margin:7px;padding:5px 10px;color:#dd8047;background:#e4e4ea;list-style:none;cursor:default;font-size:1.2em}
 #projects{padding:50px 15px;border-bottom:1px solid #dcd9d9;text-align:center}
 #projects h2{color:#dd8047;margin-bottom:50px}
 .project{position:relative;max-width:900px;margin:0 auto 30px auto;overflow:hidden;background:#fff;border-radius:4px}
